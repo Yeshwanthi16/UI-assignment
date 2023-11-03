@@ -1,0 +1,50 @@
+.app {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+  }
+  .note-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .input-title {
+    width: 300px;
+    padding: 5px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+  }
+  .text-area {
+    width: 500px;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: whitesmoke;
+  }
+  .button {
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    background-color: bisque;
+    border-radius: 5px;
+  }
+  .note-list {
+    border-radius: 10px;
+    width: 300px;
+    padding-bottom: 20px;
+  }
+  .note-card {
+    background-color: wheat;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  
